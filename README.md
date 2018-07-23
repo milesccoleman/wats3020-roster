@@ -1,3 +1,5 @@
+http://milesccoleman.com/wats3020-roster
+
 # WATS 3020 Roster Project
 
 In this project you will add Class objects to fill in the functionality of a
