@@ -23,8 +23,8 @@ class Student extends Person{
 		for (let mark of this.attendance){
 				counter = counter + mark; 
 		}
-		let attendancePercentage = counter / this.attendance.length * 100; 
-		return '${attendancePercentage}%'; 
+		let percentage = Math.round(counter / this.attendance.length * 100); 
+		return percentage + '%'; 
 		} else {
 			return '0%'; 
 		}
@@ -52,7 +52,7 @@ class Course{
 addStudent(){
 	let name = prompt('Enter Student Name'); 
 	let email = prompt('Enter Student Email'); 
-	let newStudent = new Student(name, email); //do i need this? 
+	let newStudent = new Student(name, email); 
 	this.students.push(newStudent); 
 	updateRoster(this); 
 }
