@@ -1,6 +1,6 @@
 /* JS for WATS 3020 Roster Project */
 
-//Person class--username is the email with @-symbole removed
+//Person class--username is the email with @-symbol removed
 class Person {
 	constructor(name, email){
 		this.name = name; 
