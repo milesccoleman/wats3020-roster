@@ -1,4 +1,3 @@
-http://milesccoleman.com/wats3020-roster
 
 # WATS 3020 Roster Project
 
